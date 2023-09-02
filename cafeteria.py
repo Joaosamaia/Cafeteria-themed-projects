@@ -152,7 +152,7 @@ def exibir_relatorios():
         print(f"Funcionário: {nome}, Pontos: {dados['pontos']}, Frequência: {dados['frequencia']}")
     print("================================")
 
-# Loop principal do programa
+# Loop principal do programa - main program loop
 while True:
     exibir_menu()
     opcao = input("Informe a opção desejada: ")
@@ -209,5 +209,3 @@ while True:
         break
     else:
         print("Opção inválida.")
-
-# FIM
