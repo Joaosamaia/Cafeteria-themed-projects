@@ -1,0 +1,100 @@
+body {
+    background-color: #734F3C;
+    background-repeat: no-repeat;
+    background-size: auto;
+}
+
+.title{
+    display: block;
+    position: sticky;
+    color:#ffffff;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8);
+    border: 3px outset #412f26;
+    text-align: center;
+    background-image: url("https://assets.bonappetit.com/photos/5c366551f212512d0e6cefd0/16:9/w_2560%2Cc_limit/Basically-Coffee-0219-03.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    z-index: 0;
+}
+
+.dropdown {
+    display: inline-block;
+    position: fixed;
+    width: max-content;
+    left: 35px;
+    top: 310px;
+    z-index: 1;
+  }
+  .link-button{
+    border: none;
+    cursor: pointer;
+    text-decoration: none;
+    color:#ffffff
+    
+  }
+  .dropdown-button {
+    background-color: #734F3C;
+    padding: 5px 50px;
+    border: none;
+    cursor: pointer;
+    color:#ffffff;
+  }
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #734F3C;
+    width: 100%;
+    left: 50%;
+    transform: translateX(-50%);
+    overflow: auto;
+    box-shadow: 0px 10px 10px 0px rgba(0,0,0,0.4);
+    text-align: center;
+    z-index: 2;
+  }
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+  .dropdown-content a {
+    display: block;
+    color: #ffffff;
+    padding: 5px;
+    text-decoration: none;
+  }
+  .dropdown-content a:hover {
+    color: #000000;
+    background-color: #32d8f1;
+  }
+  .dropdown a button:hover {
+    color: #000000;
+    background-color: #32d8f1;
+  }
+
+.container {
+  display: grid;
+  grid-template-columns: 400px 700px;
+  grid-gap: 10px;
+  z-index: 0;
+}
+
+.horarios {
+    display: inline-block;
+    position: sticky;
+    left: 50px;
+    color:#ffffff;
+    text-align: center;
+}
+ ul {
+     list-style: none;
+   }
+
+.local {
+    display: inline-block;
+    position: sticky;
+    text-align: center;
+    color:#ffffff;
+}
+.link-text{
+    border: none;
+    cursor: pointer;
+    color:#ffffff;
+}
