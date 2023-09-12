@@ -2,7 +2,7 @@
 
 ----------------------------------------------------------------------------
 
-Summary -> Various projects that are either coffee or coffee shop themed. (basic proof of concept);
+<b>Summary</b> -> Various projects that are either coffee or coffee shop themed. (basic proof of concept);
 
 Includes the front-end for a site of a near-by cafeteria containing a functional menu and 5 screens;
 
